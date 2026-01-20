@@ -77,15 +77,6 @@ const Hero = () => {
             📍 {personalInfo.location}
           </motion.p>
 
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.7 }}
-            className="text-base text-gray-500 mb-10 max-w-2xl mx-auto"
-          >
-            🇩🇪 Seeking opportunities in Germany from July 2026
-          </motion.p>
-
           {/* CTA Buttons */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
